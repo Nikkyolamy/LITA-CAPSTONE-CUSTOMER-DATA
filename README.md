@@ -100,8 +100,55 @@ past out the dax function from the formular box
 put in the screenshot of powerbi and pivot tables.
 
 ### FINAL ANALYSIS OUTCOME.
-**1. 
+1. Problem Identification
+2. Key Insights and Inferences
+3. Recommendations
 
+#### 1. Problem Identification
+From the customer data, several key issues can be identified: 
+
+##### High Cancellation Rate:
+There’s a significant number of cancellations compared to active customers, with a noticeable peak in cancellations by month around April. 
+##### Regional Cancellation Patterns:
+Cancellations are relatively high across all regions, with each region contributing equally (North, South, and West each with 11,250 cancellations). 
+##### Subscription Type Popularity and Revenue:
+While the "Basic" subscription type is the most popular and brings in the most revenue, there’s a substantial gap between it and the Premium and Standard options. 
+##### Subscription Duration Consistency:
+The average duration across all subscription types (Basic, Premium, Standard) is consistently around 12 months, suggesting that most customers do not renew beyond the initial year. 
+
+#### 2. Key Insights and Inferences
+##### Customer Segmentation by Region:
+Each region (North, East, South, and West) has around 18.75K customers, showing an even distribution across regions. This uniformity suggests a balanced customer base across locations but may mask regional preferences or differences in customer needs. 
+
+#### Subscription Type Preferences:
+- *Basic subscriptions* are the most popular, with around 38K subscribers, followed by Premium and Standard with approximately 19K each. This preference indicates a customer tendency toward more affordable options.
+- *Revenue Contribution by Subscription Type:*
+Basic subscriptions contribute the highest revenue at 75M, while Premium and Standard subscriptions add 38M and 37M, respectively. This suggests that customers are price-sensitive but willing to invest in basic services.
+
+##### Customer Activity Trends:
+- The "Total Active by Month" line graph reveals that customer engagement or activity fluctuates throughout the year, with peaks in certain months. Identifying these peak periods could help in targeting retention campaigns or introducing engagement incentives during off-peak times.
+- A similar trend is observed in "Total Cancelled by Month," with a spike in cancellations around April. This might indicate a seasonal drop-off point where customers reassess or cancel their subscriptions, possibly after a trial period or due to seasonality. 
+
+##### Cancellation Analysis:
+- The pie chart shows that out of a total of 75K customers, 41K have canceled, while 34K remain active. This high cancellation rate (around 55%) raises concerns about customer retention and satisfaction.
+- The "Top 3 Regions by Cancelled Subscription" chart indicates that cancellations are equally distributed across the North, South, and West regions, hinting that the issue might be tied to factors other than regional service discrepancies. 
+
+##### Average Duration of Subscription:
+- All subscription types have an average duration of 12 months, suggesting that customers are likely not renewing after the first year. This could indicate a lack of long-term value perceived by the customers or insufficient engagement strategies to retain them. 
+
+#### 3. Recommendations 
+##### Retention Strategies: 
+- Given the high cancellation rate, especially around the 12-month mark, it’s crucial to implement a customer retention strategy. This could involve loyalty programs, personalized offers, or renewal discounts targeting customers approaching the 12-month end of their subscription.
+- To address the April spike in cancellations, consider introducing engagement campaigns or perks in March to preempt potential drop-offs. 
+##### Subscription Offering Improvements: 
+- Since Basic subscriptions are the most popular, explore ways to add value to Premium and Standard subscriptions, possibly by offering exclusive features or discounts that might attract customers willing to upgrade. 
+- Alternatively, a tiered Basic+ plan could be introduced to provide an intermediate option between Basic and Premium, catering to customers who want more features without the full Premium price. 
+##### Regional Campaigns: 
+- Although cancellations are evenly distributed across regions, targeting retention campaigns regionally could allow for more tailored solutions. Customer feedback surveys in each region may reveal specific pain points that can be addressed in marketing or service delivery. 
+##### Customer Engagement Throughout the Year: 
+- Use insights from the "Total Active by Month" data to schedule targeted engagement efforts during months of low activity, encouraging continuous use of the service. Educational content, seasonal promotions, or usage incentives can be useful to maintain customer interest. 
+##### Analyze Customer Feedback on Subscription Durations: 
+- To understand why most customers do not renew after 12 months, conduct surveys or focus groups aimed at exploring their satisfaction with the service and any improvements they’d like to see. This feedback can guide service enhancements or offer development that addresses the reasons for non-renewal. 
 
 
 
