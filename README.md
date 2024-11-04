@@ -29,6 +29,26 @@ This Project was designed to address the foloowing
 
 ### Tools Used
 This data was worked on using:
-- Ms.Excel for data cleaning and removing duplicate data
+- Ms.Excel for data cleaning and data analysis.
 - SQL(structured Query Language) for data querying and to ensure the integrity and quality of data#
 - PowerBi for data visualization and to help give a better understanding to the data.
+
+### Data Cleaning and Preparation
+- Data loading and inspection
+- Data cleaning
+- Removal of duplicates
+
+### Exploratory Data Analysis
+The EDA involved was focused on answering the follwowing questions:
+1. what is the total number of customers from each region.
+2. what is the most popular subscription type by the number of customers.
+3. customers who canceled their subscription within 6 months.
+4. what is the average subscription duration for all customers.
+5. customers with subscriptions longer than 12 months.
+6. what is the total revenue by subscription type.
+7.  what are the top 3 regions by subscription cancellations.
+8.  what is the total number of active and canceled subscriptions.
+
+
+
+
