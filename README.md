@@ -93,6 +93,15 @@ FROM [dbo].[Customer Data]
 GROUP BY CustomerID
 ```
 
+#### -DAX functions with powerBi for conditional columns, calculated and measures
+past out the dax function from the formular box
+
+### DATA VISUALIZATIONS.
+put in the screenshot of powerbi and pivot tables.
+
+### FINAL ANALYSIS OUTCOME.
+**1. 
+
 
 
 
