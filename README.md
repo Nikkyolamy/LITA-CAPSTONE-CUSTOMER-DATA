@@ -1,12 +1,17 @@
 # LITA-CAPSTONE-PROJECT
 This is where I documented my  captone project with the Incubator Hub 
-## Project Title: Customer Data Analysis
 
-### Project Overview
+## Project Title: Customer Data Analysis
+---
+
+### Project Overview.
+
 This data analysis project aims to analyze and generate insight into the customer data for a subscription service to identify key trends in cancellations and renewals. By analyzing the various parameters in the data received, i gathered enough insight into the problems and proferred the best possible solutions through compelling stories.
+---
 
 ### Data Sources
 The Primary source of data here is Customer Data.csv
+---
 
 ### Data Collected
 The data set includes the following key columns
@@ -18,6 +23,7 @@ The data set includes the following key columns
 6. subscription end
 7. canceled
 8. revenue
+---
 
 ### Project Objectives.
 This Project was designed to address the foloowing
@@ -26,17 +32,20 @@ This Project was designed to address the foloowing
 3. Analyze customer distribution and cancellation rates across regions (North, East, South, and West) to identify any regional variations in customer behavior.
 4. Track monthly customer activity and cancellations to identify seasonal trends or specific months with high activity or high cancellation rates (e.g., peak cancellations in April).
 5. Investigate the average subscription duration across different plans
+---
 
 ### Tools Used
 This data was worked on using:
 - Ms.Excel for data cleaning and data analysis, using the pivot tables to organize and summarize.
 - SQL(structured Query Language) for data querying, to ensure the integrity and quality of data#
 - PowerBi for data visualization, to represent the key insights visually.
+---
 
 ### Data Cleaning and Preparation
 - Data loading and inspection
 - Data cleaning
 - Removal of duplicates
+---
 
 ### Exploratory Data Analysis
 The EDA involved was focused on answering the follwowing questions:
@@ -48,6 +57,8 @@ The EDA involved was focused on answering the follwowing questions:
 - what is the total revenue by subscription type.
 - what are the top 3 regions by subscription cancellations.
 - what is the total number of active and canceled subscriptions.
+
+---
 
 ### Data Analysis
 This shows and includes the formulars, basic lines of codes used and DAX expressions used during the analysis.
@@ -94,10 +105,27 @@ GROUP BY CustomerID
 ```
 
 #### -DAX functions with powerBi for conditional columns, calculated and measures
-past out the dax function from the formular box
+```DAX
+Average subscription Duration = AVERAGE(CustomerData[Duration in Days])
+count of Customer ID = COUNT(CustomerData[CustomerID])
+Total Active = CALCULATE(COUNTROWS(CustomerData),'CustomerData'[No of cancelled]=0)
+Total Cancelled = CALCULATE(COUNTROWS(CustomerData),'CustomerData'[No of cancelled]=1)
+Table.AddColumn(#"Extracted Month Name", "second cancelations", each if [Canceled] = "true" then "Cancelled"
+Table.AddColumn(#"Renamed Columns", "Cancellation 1 and 0", each if [Canceled] = true then 1 else 0)
+```
+---
 
 ### DATA VISUALIZATIONS.
-put in the screenshot of powerbi and pivot tables.
+
+![Screenshot (21)](https://github.com/user-attachments/assets/6b8c16ff-c5ae-4318-933b-2e5e40557ddf)
+
+
+
+![Screenshot (20)](https://github.com/user-attachments/assets/a77f8e05-2c04-4b82-b55f-12dc62311c2f)
+
+---
+
+
 
 ### FINAL ANALYSIS OUTCOME.
 1. Problem Identification
