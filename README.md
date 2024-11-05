@@ -1,5 +1,5 @@
 # LITA-CAPSTONE-PROJECT(CUSTOMER DATA)
-This is where I documented my Customer data captone project with the Incubator Hub 
+This is where I documented my Customer data capstone project with the Incubator Hub 
 
 ## Project Title: Customer Data Analysis
 ---
@@ -8,11 +8,6 @@ This is where I documented my Customer data captone project with the Incubator H
 
 This data analysis project explored customer data to uncover trends in cancellations and renewals for a subscription service. The analysis revealed key insights into the underlying issues, informing data-driven recommendations for improvement.
 
-
----
-
-### Data Sources
-The Primary source of data here is Customer Data.csv
 
 ---
 
@@ -26,6 +21,7 @@ The data set includes the following key columns
 6. subscription end
 7. canceled
 8. revenue
+9. 
 ---
 
 ### Project Objectives.
