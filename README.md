@@ -1,5 +1,5 @@
-# LITA-CAPSTONE-PROJECT
-This is where I documented my First captone project with the Incubator Hub 
+# LITA-CAPSTONE-PROJECT(CUSTOMER DATA)
+This is where I documented my Customer data captone project with the Incubator Hub 
 
 ## Project Title: Customer Data Analysis
 ---
