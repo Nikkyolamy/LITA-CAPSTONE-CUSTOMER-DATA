@@ -29,7 +29,7 @@ The data set includes the following key columns
 ---
 
 ### Project Objectives.
-This Project was designed to address the foloowing
+This Project was designed to address the following
 1. Understand the reasons behind the high cancellation rate (41K out of 75K customers canceled), especially with the significant drop-off after 12 months.
 2. Examine customer preferences across Basic, Premium, and Standard subscription types to determine which offerings generate the most interest and revenue.
 3. Analyze customer distribution and cancellation rates across regions (North, East, South, and West) to identify any regional variations in customer behavior.
