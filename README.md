@@ -4,13 +4,16 @@ This is where I documented my First captone project with the Incubator Hub
 ## Project Title: Customer Data Analysis
 ---
 
-### Project Overview.
+### Project Overview
 
-This data analysis project aims to analyze and generate insight into the customer data for a subscription service to identify key trends in cancellations and renewals. By analyzing the various parameters in the data received, i gathered enough insight into the problems and proferred the best possible solutions through compelling stories.
+This data analysis project explored customer data to uncover trends in cancellations and renewals for a subscription service. The analysis revealed key insights into the underlying issues, informing data-driven recommendations for improvement.
+
+
 ---
 
 ### Data Sources
 The Primary source of data here is Customer Data.csv
+
 ---
 
 ### Data Collected
